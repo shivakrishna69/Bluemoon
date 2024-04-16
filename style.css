@@ -1,0 +1,150 @@
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.hero{
+    background-image: url(images/background.png) ;
+    background-size: cover;
+    height: 600px;
+}
+
+img.ellipse{
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+
+img.background{
+    position: absolute;
+    top: 27%;
+}
+img.ellipse-2{
+    position: absolute;
+    width: 100px;
+}
+img.ellipse-3{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 112px;
+}
+
+img.oneofstats{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+h1.text-center.heading,p.text-center.fw-bold.fs-5,strong.plan,p.text-center.p-5.fw-semibold.fs-4,p.mb-5.fw-semibold,h2.mb-3,p.mb-4.fw-semibold,p.text-center.ps-5.pe-5.fw-semibold.opacity-50,h1.mt-3.fw-medium,p.p-text,h2.text-center.mb-5,p.mb-4.fw-semibold.text-center,p.fs-3.mt-5.heading {
+    color: #3D4F9F;
+}
+img.ellipse-4{
+    width: 200px;
+    top: 70%;
+    position: absolute;
+    left: 70%;
+}
+img.ellipse-5{
+    width: 150px;
+    top: 70%;
+    position: absolute;
+    left: 75%;
+}
+img.ellipse-6{
+    width: 150px;
+    top:70%;
+    position: absolute;
+    left: 70%;
+}
+
+img.ellipse-7{
+    position: absolute;
+   
+    right: 20%;
+    margin-top: 10px;
+}
+img.ellipse-8{
+    position: absolute;
+    width: 200px;
+    right: 20%;
+}
+img.ellipse-9{
+    position: absolute;
+    right: 24%;
+    margin-top: 10px;
+}
+img.ellipse-10{
+    position: absolute;
+    left: 20%;
+    margin-top: 15px;
+}
+img.ellipse-11{
+    position: absolute;
+    left: 22%;
+    margin-top: 12px;
+}
+img.ellipse-12{
+    position: absolute;
+    left: 21%;
+    margin-top: 18px;
+}
+
+section.child{
+    background-image: url(images/background-1.png);
+    height: 500px;
+}
+
+.container.child{
+    background-image: url(images/sky.png) ;
+    background-size: cover;
+    height: 400px;
+    
+}
+
+
+.slider-area h2 {
+    text-align: center;
+    font-family: impact;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 100px 0 30px 0;
+    color: #fff;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 180px;
+    padding: 2.5rem;
+    background: #ddd;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item {
+    animation: animate 25s alternate linear infinite;
+}
+.container:hover .item {
+    animation-play-state: paused;
+}
+@keyframes animate {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-1100px, 0, 0);
+    }
+}
+@media (max-width:767px) {
+    .slider-area h2 {
+        font-size: 30px;
+    }
+    .wrapper {
+        width: 95%;
+        border-radius: 0;
+        padding: 0;
+    }
+}
